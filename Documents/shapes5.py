@@ -15,6 +15,10 @@ Trectange = Polygon(Point(610,750), Point(750,750), Point(750,690), Point(610,69
 Trectange.setFill(color_rgb(0,128,128))
 Trectange.draw(Win)
 
+Loval = Oval(Point(650, 50), Point(730,150))
+Loval.setFill(color_rgb(200,162,200))
+Loval.draw(Win)
+
 Win.getMouse()
 Win.close()
 
